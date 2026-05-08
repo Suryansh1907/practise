@@ -1,7 +1,7 @@
 name: github action test
-on: workflow_run
+on: workflow_dispatch
 jobs:
-  first:
+  first-job:
   runs-on: ubuntu-latest
   steps:
   - name: Print hello
