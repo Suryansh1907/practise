@@ -1,14 +1,14 @@
-name: github action test
-
+name: 1
 on: workflow_dispatch
-
 jobs:
-  first-job:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Print hello
-      run: echo "Hello World"
-  
-  
+
+  first:
+   
+   runs-on: ubuntu-latest
+   name: 1
+   steps:
+   
+     - name: 1
+       run: echo "hi"
+       
     
