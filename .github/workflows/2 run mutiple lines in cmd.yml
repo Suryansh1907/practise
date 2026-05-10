@@ -1,4 +1,4 @@
-name: Run mutiples lines in cmd
+name: 2 Run mutiples lines in cmd
 on: workflow_dispatch
 jobs:
   first-job:
