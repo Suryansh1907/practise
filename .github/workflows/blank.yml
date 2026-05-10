@@ -1,14 +1,14 @@
-name: 1
+name: 1 First workflow 
 on: workflow_dispatch
 jobs:
 
   first:
    
    runs-on: ubuntu-latest
-   name: 1
+   name: First job
    steps:
    
-     - name: 1
+     - name: First step
        run: echo "hi"
        
     
