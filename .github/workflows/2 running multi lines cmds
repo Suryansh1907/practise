@@ -1,2 +1,10 @@
 name: Running multi lines in cmd
-on: worl
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on:ubuntu-latest
+    steps:
+      - name: Run mutilple commands
+        runs:  |
+          echo "First"
+          echo "Second"
