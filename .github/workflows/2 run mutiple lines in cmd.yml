@@ -2,8 +2,9 @@ name: Run mutiples lines in cmd
 on: workflow_dispatch
 jobs:
   first-job:
+    runs-on: ubuntu-latest
     steps:
       - name: Run Mutiple Lines
-      run: |
-        echo "First line executed"
-        echo " Second Line executed"
+        run: |
+          echo "First line executed"
+          echo " Second Line executed"
