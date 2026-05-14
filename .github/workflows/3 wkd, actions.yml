@@ -22,6 +22,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
+    needs: first-job
     defaults:
       run:
         working-directory: ./03Starting Project
