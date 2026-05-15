@@ -1,6 +1,6 @@
 name: 3 Workflow for testing
 
-on: [push]
+on: [workflow_dispatch]
 
 jobs:
   first-job:
